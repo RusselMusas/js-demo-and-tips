@@ -1,0 +1,12 @@
+{
+  "name": "js-demo-and-tips",
+  "version": "1.0.0",
+  "description": "js demo and tips",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Russel",
+  "license": "ISC"
+}
