@@ -1,7 +1,7 @@
 // Spread operator
-let arr1 = [1,2,3];
-let arr3 = [6,7,8];
-let arr2 = [...arr1,4,5,...arr3];
+let arr1 = [1, 2, 3];
+let arr3 = [6, 7, 8];
+let arr2 = [...arr1, 4, 5, ...arr3];
 
 console.log("arr1", arr1);
 console.log("arr2", arr2);
@@ -18,7 +18,8 @@ let object2 = {
 };
 console.log("object2", object2);
 let object3 = {
-    ...object1, ...object2
+    ...object1,
+    ...object2
 };
 console.log("object3", object3);
 
