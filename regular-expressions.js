@@ -19,3 +19,11 @@ let fccRegex = /FREE/i; // Change this line
 result = fccRegex.test(myString);
 console.log(myString);
 console.log('Does sentence above contain "FREE" with any case?', result);
+
+// Extract Matches with .match()
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/; // Change this line
+result = extractStr.match(codingRegex); // Change this line
+console.log(extractStr);
+console.log(result);
+
