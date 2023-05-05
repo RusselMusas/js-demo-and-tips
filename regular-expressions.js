@@ -11,4 +11,11 @@ let petString = "James has a pet cat.";
 let petRegex = /dog|cat|bird|fish/; // Change this line
 result = petRegex.test(petString);
 console.log(petString);
-console.log(result);
+console.log('Does sentence above contain "dog" or "cat" or "bird" or "fish"?', result);
+
+// Ignore Case While Matching with flag i
+myString = "freeCodeCamp";
+let fccRegex = /FREE/i; // Change this line
+result = fccRegex.test(myString);
+console.log(myString);
+console.log('Does sentence above contain "FREE" with any case?', result);
